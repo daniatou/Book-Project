@@ -1,9 +1,12 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: 0;
     font-family: 'Mulish', sans-serif;
-    ;
+
+}
+p{
+    font-size: 14px;
+    font-weight: lighter;
 }
 
 header {
@@ -38,6 +41,15 @@ nav ul li {
     padding: 40px;
 }
 
+.description-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
 .description h2 {
     color: #47B99E;
     font-size: 1.2em;
@@ -56,10 +68,13 @@ nav ul li {
     line-height: 25px;
 }
 
-section .containerr {
-    padding: 80px;
-    width: 600px;
-    margin: auto;
+
+.containerr, .about-desc  {
+    width: 40%;
+}
+
+.container-img img {
+    width: 500px;
 }
 
 button {
@@ -72,13 +87,10 @@ button {
     margin: 22px 0px;
 }
 
-.description img {
-    width: 500px;
-}
 
 .categorie {
-    padding: 50px;
-    width: 100%;
+    width: 80%;
+    margin: 100px auto;
 
 }
 
@@ -94,12 +106,16 @@ button {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .item {
-    width: 30%;
-    margin: auto;
-    margin: 25px 0;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    justify-items: flex-start;
 }
 
 .img-container {
@@ -107,11 +123,66 @@ button {
     width: 130px;
     height: 130px;
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+}
+
+.item-img {
+    position: absolute;
+    top: 27%;
+    left: 30%;
+    
 }
 
 .item-img img {
     width: 50px;
+}
+
+.about {
+    background-color: #F5F6F9;
+}
+
+.about-container{
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-container img{
+    width: 500px;
+}
+.testimonies{
+    margin-top: 100px;
+}
+
+.testimony{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 80vh;
+    padding: 20px;
+    
+}
+.client{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.client-says{
+    background-color: #063547;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+.client-img{
+    width: 50%;
+}
+
+.client-img img{
+    width: 130px;
+    border-radius: 50%;
 }
