@@ -54,6 +54,7 @@ nav ul li {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .description {
@@ -106,6 +107,7 @@ button {
     border-radius: 25px;
     font-size: 18px;
     margin: 22px 0px;
+    cursor: pointer;
 }
 
 
