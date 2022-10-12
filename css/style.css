@@ -32,9 +32,28 @@ nav ul li {
 
 .search input {
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 17px;
     border: none;
     outline: none;
+
+}
+
+.search {
+    position: relative;
+}
+
+.search-icon {
+    position: absolute;
+    bottom: 3px;
+    right: 3px;
+    background-color: #47B99E;
+    border-radius: 30%;
+    width: 29px;
+    height: 29px;
+    border-radius: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .description {
@@ -171,11 +190,13 @@ button {
 }
 
 .client {
-    width: 35%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     height: 300px;
     justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
 
 }
 
@@ -232,11 +253,13 @@ button {
     position: relative;
 
 }
-.btn{
+
+.btn {
     position: absolute;
     top: -50px;
 }
-.btn button{
+
+.btn button {
     background-color: #063547;
     color: white;
     border: 2px solid white;
@@ -248,16 +271,19 @@ button {
     padding: 0 !important;
 }
 
-a{
+a {
     text-decoration: none;
     color: #47B99E;
 }
 
-.form{
+.form {
     width: 40%;
 }
 
-input, textarea, .form button{
+input[type=text],
+input[type=email],
+textarea,
+.form button {
     box-sizing: border-box;
     display: block;
     padding: 15px;
@@ -265,27 +291,64 @@ input, textarea, .form button{
     margin-top: 30px;
     border-radius: 35px;
     resize: none;
-    background-color: #F5F6F9 ;
+    background-color: #F5F6F9;
     border: none;
     outline: none;
 }
 
-.form button{
-    background-color:#47B99E;
-   
+.form button {
+    background-color: #47B99E;
+
 }
 
 .contact-img {
     width: 40%;
 }
 
-.contact-img img{
+.contact-img img {
     max-width: 450px;
 }
 
-.contact{
+.contact {
     display: flex;
     justify-content: center;
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+footer {
+    background-color: #063547;
+    display: flex;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+footer input,
+footer button {
+    width: 250px !important;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: #47B99E;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+.footer-item {
+    width: 20%;
+}
+
+iframe {
+    width: 250px;
+    height: 200px;
 }
