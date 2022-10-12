@@ -252,3 +252,40 @@ a{
     text-decoration: none;
     color: #47B99E;
 }
+
+.form{
+    width: 40%;
+}
+
+input, textarea, .form button{
+    box-sizing: border-box;
+    display: block;
+    padding: 15px;
+    width: 400px;
+    margin-top: 30px;
+    border-radius: 35px;
+    resize: none;
+    background-color: #F5F6F9 ;
+    border: none;
+    outline: none;
+}
+
+.form button{
+    background-color:#47B99E;
+   
+}
+
+.contact-img {
+    width: 40%;
+}
+
+.contact-img img{
+    max-width: 450px;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
